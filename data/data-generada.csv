@@ -1,0 +1,841 @@
+id_estudiante,nombre,asignatura,periodo,nota1,nota2,nota3,asistencia_%,participacion
+1,Ana Vega,Algoritmos,1,5.00,4.83,5.00,95.40,0.79
+1,Ana Vega,Algoritmos,2,5.00,5.00,5.00,90.90,1.00
+1,Ana Vega,Algoritmos,3,4.78,4.94,4.96,97.90,1.00
+1,Ana Vega,Bases de Datos,1,4.65,4.23,3.64,89.20,0.53
+1,Ana Vega,Bases de Datos,2,3.58,3.72,3.84,88.90,1.00
+1,Ana Vega,Bases de Datos,3,3.98,4.13,3.72,87.20,0.90
+1,Ana Vega,Ingeniería de Software,1,4.86,5.00,5.00,88.60,0.89
+1,Ana Vega,Ingeniería de Software,2,5.00,4.29,5.00,77.10,0.67
+1,Ana Vega,Ingeniería de Software,3,4.41,4.77,5.00,100.00,1.00
+1,Ana Vega,Matemáticas,1,3.55,3.62,3.97,70.70,0.79
+1,Ana Vega,Matemáticas,2,5.00,4.63,4.24,95.30,1.00
+1,Ana Vega,Matemáticas,3,4.68,5.00,5.00,88.30,1.00
+1,Ana Vega,Programación,1,4.60,4.20,3.47,88.30,1.00
+1,Ana Vega,Programación,2,4.80,4.26,4.19,97.80,0.92
+1,Ana Vega,Programación,3,4.41,4.54,4.66,95.90,0.71
+1,Ana Vega,Redes,1,4.01,4.08,4.37,85.40,0.73
+1,Ana Vega,Redes,2,3.57,5.00,3.36,96.40,0.93
+1,Ana Vega,Redes,3,3.73,4.78,4.16,91.00,1.00
+1,Ana Vega,Sistemas,1,4.91,4.20,4.62,86.80,0.74
+1,Ana Vega,Sistemas,2,5.00,5.00,4.23,100.00,0.87
+1,Ana Vega,Sistemas,3,4.83,3.85,3.92,89.30,0.86
+2,Sara Gómez,Algoritmos,1,2.28,2.56,2.94,84.20,0.80
+2,Sara Gómez,Algoritmos,2,2.36,3.32,2.39,91.50,0.78
+2,Sara Gómez,Algoritmos,3,2.05,2.66,2.31,52.40,0.41
+2,Sara Gómez,Bases de Datos,1,2.68,1.83,1.91,99.70,0.45
+2,Sara Gómez,Bases de Datos,2,1.97,1.10,2.02,76.10,0.61
+2,Sara Gómez,Bases de Datos,3,2.44,1.56,1.47,65.60,0.78
+2,Sara Gómez,Ingeniería de Software,1,1.72,2.16,1.55,84.60,0.35
+2,Sara Gómez,Ingeniería de Software,2,1.60,2.04,1.82,93.60,0.37
+2,Sara Gómez,Ingeniería de Software,3,1.81,1.82,2.11,87.10,0.53
+2,Sara Gómez,Matemáticas,1,1.88,2.65,0.83,90.40,0.85
+2,Sara Gómez,Matemáticas,2,1.97,1.98,2.21,84.50,1.00
+2,Sara Gómez,Matemáticas,3,2.22,1.72,2.13,55.20,0.71
+2,Sara Gómez,Programación,1,2.45,2.49,2.18,87.00,0.55
+2,Sara Gómez,Programación,2,2.39,2.14,2.23,86.80,0.46
+2,Sara Gómez,Programación,3,2.94,2.91,2.02,83.40,0.81
+2,Sara Gómez,Redes,1,3.16,2.09,1.57,88.90,0.50
+2,Sara Gómez,Redes,2,2.72,1.48,1.61,84.70,0.58
+2,Sara Gómez,Redes,3,2.13,1.81,2.43,97.50,0.77
+2,Sara Gómez,Sistemas,1,0.77,2.64,2.81,87.50,0.53
+2,Sara Gómez,Sistemas,2,1.86,2.24,2.72,87.10,0.52
+2,Sara Gómez,Sistemas,3,2.27,2.30,2.24,86.40,0.60
+3,Felipe Salazar,Algoritmos,1,2.11,1.61,2.64,92.90,0.47
+3,Felipe Salazar,Algoritmos,2,1.87,1.80,1.89,62.20,0.46
+3,Felipe Salazar,Algoritmos,3,2.11,1.75,2.16,74.80,0.69
+3,Felipe Salazar,Bases de Datos,1,2.71,1.29,2.48,75.70,0.53
+3,Felipe Salazar,Bases de Datos,2,3.06,2.28,3.05,87.50,0.86
+3,Felipe Salazar,Bases de Datos,3,1.52,2.53,2.50,69.60,1.00
+3,Felipe Salazar,Ingeniería de Software,1,1.80,1.83,1.74,75.90,0.53
+3,Felipe Salazar,Ingeniería de Software,2,1.23,1.46,1.50,71.20,0.77
+3,Felipe Salazar,Ingeniería de Software,3,1.34,1.46,1.48,71.70,0.32
+3,Felipe Salazar,Matemáticas,1,2.46,2.03,3.19,75.90,0.44
+3,Felipe Salazar,Matemáticas,2,1.51,1.82,3.04,74.40,0.50
+3,Felipe Salazar,Matemáticas,3,2.57,2.46,2.27,93.20,0.24
+3,Felipe Salazar,Programación,1,3.09,1.59,2.47,81.80,0.35
+3,Felipe Salazar,Programación,2,1.92,2.38,2.31,83.00,0.51
+3,Felipe Salazar,Programación,3,2.38,1.35,2.47,97.20,0.81
+3,Felipe Salazar,Redes,1,2.51,2.26,2.92,75.70,0.65
+3,Felipe Salazar,Redes,2,3.21,2.78,1.60,62.10,0.86
+3,Felipe Salazar,Redes,3,3.29,4.03,2.57,99.40,0.29
+3,Felipe Salazar,Sistemas,1,1.86,2.44,2.06,92.80,0.52
+3,Felipe Salazar,Sistemas,2,2.10,1.82,2.63,72.10,0.71
+3,Felipe Salazar,Sistemas,3,1.80,2.75,1.78,74.20,0.54
+4,Sebastián Peña,Algoritmos,1,1.88,2.07,2.46,78.80,0.64
+4,Sebastián Peña,Algoritmos,2,2.20,2.88,2.54,95.10,0.97
+4,Sebastián Peña,Algoritmos,3,2.39,2.14,1.44,87.90,0.46
+4,Sebastián Peña,Bases de Datos,1,2.48,3.45,3.71,90.30,0.34
+4,Sebastián Peña,Bases de Datos,2,3.30,2.28,2.54,91.20,0.53
+4,Sebastián Peña,Bases de Datos,3,3.52,3.42,3.25,86.40,0.72
+4,Sebastián Peña,Ingeniería de Software,1,3.55,3.26,3.60,90.40,0.49
+4,Sebastián Peña,Ingeniería de Software,2,3.46,3.52,4.71,80.50,0.60
+4,Sebastián Peña,Ingeniería de Software,3,4.10,3.37,3.57,80.40,0.50
+4,Sebastián Peña,Matemáticas,1,2.28,2.70,3.23,84.70,0.69
+4,Sebastián Peña,Matemáticas,2,2.62,2.45,3.21,69.10,0.70
+4,Sebastián Peña,Matemáticas,3,2.82,3.04,3.46,86.90,0.55
+4,Sebastián Peña,Programación,1,3.80,2.32,3.09,69.70,0.54
+4,Sebastián Peña,Programación,2,1.82,3.73,3.90,100.00,0.61
+4,Sebastián Peña,Programación,3,2.84,3.49,3.04,76.60,0.35
+4,Sebastián Peña,Redes,1,4.25,3.69,4.08,83.60,0.53
+4,Sebastián Peña,Redes,2,2.15,3.95,3.00,67.20,0.77
+4,Sebastián Peña,Redes,3,3.92,3.69,3.44,93.40,0.38
+4,Sebastián Peña,Sistemas,1,2.06,2.77,2.59,100.00,0.62
+4,Sebastián Peña,Sistemas,2,1.75,3.52,2.21,78.10,0.87
+4,Sebastián Peña,Sistemas,3,1.59,2.17,2.82,78.30,0.69
+5,Valeria Bermúdez,Algoritmos,1,3.48,2.57,3.41,83.90,0.46
+5,Valeria Bermúdez,Algoritmos,2,3.47,3.17,4.00,86.00,0.68
+5,Valeria Bermúdez,Algoritmos,3,3.88,4.40,3.43,93.00,1.00
+5,Valeria Bermúdez,Bases de Datos,1,3.38,3.80,2.17,87.80,0.85
+5,Valeria Bermúdez,Bases de Datos,2,3.78,2.68,3.05,93.40,0.73
+5,Valeria Bermúdez,Bases de Datos,3,2.66,2.69,3.02,84.10,0.65
+5,Valeria Bermúdez,Ingeniería de Software,1,2.91,3.07,2.71,73.80,1.00
+5,Valeria Bermúdez,Ingeniería de Software,2,2.88,3.14,2.56,89.20,0.87
+5,Valeria Bermúdez,Ingeniería de Software,3,3.96,2.83,3.31,94.40,0.80
+5,Valeria Bermúdez,Matemáticas,1,3.00,4.19,3.31,99.60,0.79
+5,Valeria Bermúdez,Matemáticas,2,2.69,3.10,3.18,76.00,0.82
+5,Valeria Bermúdez,Matemáticas,3,3.55,3.27,3.42,71.60,0.83
+5,Valeria Bermúdez,Programación,1,3.92,3.16,3.31,81.20,0.81
+5,Valeria Bermúdez,Programación,2,3.17,3.46,3.56,78.60,0.90
+5,Valeria Bermúdez,Programación,3,3.41,3.76,2.56,77.20,0.39
+5,Valeria Bermúdez,Redes,1,4.18,4.03,3.07,79.80,0.71
+5,Valeria Bermúdez,Redes,2,2.90,3.40,3.30,98.50,0.41
+5,Valeria Bermúdez,Redes,3,3.15,2.62,4.03,82.40,0.76
+5,Valeria Bermúdez,Sistemas,1,3.03,2.51,2.97,87.40,0.59
+5,Valeria Bermúdez,Sistemas,2,3.08,3.19,3.14,89.60,0.60
+5,Valeria Bermúdez,Sistemas,3,3.94,3.60,3.44,83.40,0.78
+6,Samuel Parra,Algoritmos,1,1.10,0.53,0.60,85.70,0.72
+6,Samuel Parra,Algoritmos,2,0.86,0.00,0.00,98.60,0.36
+6,Samuel Parra,Algoritmos,3,0.91,0.43,0.96,91.10,0.62
+6,Samuel Parra,Bases de Datos,1,1.51,0.87,1.20,69.90,0.82
+6,Samuel Parra,Bases de Datos,2,0.96,0.61,0.52,68.90,0.68
+6,Samuel Parra,Bases de Datos,3,1.35,1.62,0.53,84.90,0.83
+6,Samuel Parra,Ingeniería de Software,1,0.46,0.98,0.00,54.90,0.48
+6,Samuel Parra,Ingeniería de Software,2,0.20,1.34,0.95,78.50,0.69
+6,Samuel Parra,Ingeniería de Software,3,1.20,0.67,0.05,67.40,0.62
+6,Samuel Parra,Matemáticas,1,0.91,1.16,2.23,92.10,0.59
+6,Samuel Parra,Matemáticas,2,1.37,2.05,0.64,89.20,0.56
+6,Samuel Parra,Matemáticas,3,1.88,1.58,1.37,80.80,0.42
+6,Samuel Parra,Programación,1,1.06,1.04,0.86,80.80,0.45
+6,Samuel Parra,Programación,2,2.01,1.67,2.27,67.10,0.45
+6,Samuel Parra,Programación,3,1.37,1.72,0.59,83.10,1.00
+6,Samuel Parra,Redes,1,1.56,1.41,2.51,66.80,0.32
+6,Samuel Parra,Redes,2,1.98,1.58,1.41,78.80,0.20
+6,Samuel Parra,Redes,3,0.74,1.03,2.09,72.70,0.28
+6,Samuel Parra,Sistemas,1,0.35,0.96,1.36,90.70,0.42
+6,Samuel Parra,Sistemas,2,1.43,0.68,0.62,55.50,0.39
+6,Samuel Parra,Sistemas,3,1.02,1.39,1.87,78.40,0.35
+7,Ricardo Castro,Algoritmos,1,2.27,0.91,1.77,81.70,0.68
+7,Ricardo Castro,Algoritmos,2,2.28,2.20,2.37,74.10,0.75
+7,Ricardo Castro,Algoritmos,3,2.25,2.53,1.52,84.40,0.92
+7,Ricardo Castro,Bases de Datos,1,2.66,3.72,2.40,84.40,0.79
+7,Ricardo Castro,Bases de Datos,2,2.77,2.74,2.78,77.50,0.44
+7,Ricardo Castro,Bases de Datos,3,2.69,3.60,1.92,88.80,0.60
+7,Ricardo Castro,Ingeniería de Software,1,2.73,2.88,1.26,79.60,0.90
+7,Ricardo Castro,Ingeniería de Software,2,1.85,3.09,3.48,87.60,0.91
+7,Ricardo Castro,Ingeniería de Software,3,2.79,3.05,2.80,97.30,0.42
+7,Ricardo Castro,Matemáticas,1,3.01,2.94,2.86,100.00,0.41
+7,Ricardo Castro,Matemáticas,2,2.53,3.23,2.68,84.40,0.63
+7,Ricardo Castro,Matemáticas,3,3.18,3.19,2.67,87.30,0.77
+7,Ricardo Castro,Programación,1,3.01,3.47,2.51,67.90,0.72
+7,Ricardo Castro,Programación,2,2.48,2.09,2.27,92.50,0.54
+7,Ricardo Castro,Programación,3,3.36,2.64,2.43,74.80,0.69
+7,Ricardo Castro,Redes,1,1.88,2.83,3.08,82.00,0.71
+7,Ricardo Castro,Redes,2,3.06,2.51,2.64,76.10,0.66
+7,Ricardo Castro,Redes,3,2.17,2.86,3.60,74.70,0.55
+7,Ricardo Castro,Sistemas,1,3.00,2.01,2.00,91.40,0.49
+7,Ricardo Castro,Sistemas,2,2.46,2.94,3.43,83.50,0.64
+7,Ricardo Castro,Sistemas,3,3.24,2.61,2.43,77.10,0.80
+8,Gabriela Vega,Algoritmos,1,4.14,3.79,3.69,98.10,0.82
+8,Gabriela Vega,Algoritmos,2,3.42,5.00,4.10,96.50,0.50
+8,Gabriela Vega,Algoritmos,3,2.76,3.44,3.08,81.60,0.88
+8,Gabriela Vega,Bases de Datos,1,2.06,2.38,3.26,84.70,0.64
+8,Gabriela Vega,Bases de Datos,2,3.57,2.40,3.08,77.20,0.54
+8,Gabriela Vega,Bases de Datos,3,3.05,3.88,4.24,88.30,0.58
+8,Gabriela Vega,Ingeniería de Software,1,4.03,3.55,3.43,81.40,0.39
+8,Gabriela Vega,Ingeniería de Software,2,3.63,4.11,3.33,94.80,0.67
+8,Gabriela Vega,Ingeniería de Software,3,3.55,4.65,4.14,89.70,0.87
+8,Gabriela Vega,Matemáticas,1,2.94,3.72,3.12,79.20,0.69
+8,Gabriela Vega,Matemáticas,2,3.98,3.52,3.76,91.00,0.61
+8,Gabriela Vega,Matemáticas,3,2.82,3.12,3.59,85.40,0.94
+8,Gabriela Vega,Programación,1,4.86,4.22,3.69,93.60,0.93
+8,Gabriela Vega,Programación,2,4.50,3.84,4.39,79.00,0.63
+8,Gabriela Vega,Programación,3,4.08,4.13,3.20,65.90,1.00
+8,Gabriela Vega,Redes,1,4.30,5.00,3.66,100.00,0.42
+8,Gabriela Vega,Redes,2,4.31,3.94,5.00,79.90,0.98
+8,Gabriela Vega,Redes,3,4.22,4.44,4.12,79.60,0.73
+8,Gabriela Vega,Sistemas,1,4.03,4.88,3.73,70.50,0.82
+8,Gabriela Vega,Sistemas,2,5.00,4.15,4.13,95.60,0.68
+8,Gabriela Vega,Sistemas,3,4.83,3.94,4.14,74.30,0.80
+9,Paula Cárdenas,Algoritmos,1,4.04,3.95,4.56,73.60,0.76
+9,Paula Cárdenas,Algoritmos,2,4.74,4.59,4.81,68.00,0.41
+9,Paula Cárdenas,Algoritmos,3,3.95,4.38,4.63,85.10,0.97
+9,Paula Cárdenas,Bases de Datos,1,3.77,3.76,3.70,100.00,0.77
+9,Paula Cárdenas,Bases de Datos,2,3.18,4.46,3.52,97.90,0.67
+9,Paula Cárdenas,Bases de Datos,3,3.54,3.04,3.14,94.30,1.00
+9,Paula Cárdenas,Ingeniería de Software,1,4.86,4.49,4.75,100.00,0.98
+9,Paula Cárdenas,Ingeniería de Software,2,4.90,4.84,3.59,87.00,0.94
+9,Paula Cárdenas,Ingeniería de Software,3,3.74,3.90,3.74,86.00,0.90
+9,Paula Cárdenas,Matemáticas,1,4.23,4.23,4.06,99.20,0.53
+9,Paula Cárdenas,Matemáticas,2,3.28,5.00,3.88,82.90,0.68
+9,Paula Cárdenas,Matemáticas,3,3.89,4.25,4.53,94.70,0.65
+9,Paula Cárdenas,Programación,1,3.70,3.60,4.02,91.10,0.74
+9,Paula Cárdenas,Programación,2,4.21,3.21,3.23,100.00,1.00
+9,Paula Cárdenas,Programación,3,2.85,2.86,3.33,92.50,0.83
+9,Paula Cárdenas,Redes,1,4.43,4.81,4.56,100.00,0.76
+9,Paula Cárdenas,Redes,2,4.43,4.38,4.35,77.20,0.64
+9,Paula Cárdenas,Redes,3,3.82,4.59,4.11,82.40,0.96
+9,Paula Cárdenas,Sistemas,1,4.46,3.43,3.79,94.80,0.59
+9,Paula Cárdenas,Sistemas,2,3.47,3.83,4.62,78.40,0.72
+9,Paula Cárdenas,Sistemas,3,3.10,5.00,3.96,78.10,0.76
+10,Natalia Bermúdez,Algoritmos,1,2.81,3.21,2.46,77.10,0.95
+10,Natalia Bermúdez,Algoritmos,2,3.03,3.23,3.58,87.10,0.63
+10,Natalia Bermúdez,Algoritmos,3,2.41,2.34,2.99,100.00,1.00
+10,Natalia Bermúdez,Bases de Datos,1,4.18,3.23,3.61,85.70,0.76
+10,Natalia Bermúdez,Bases de Datos,2,3.29,4.41,3.23,100.00,0.62
+10,Natalia Bermúdez,Bases de Datos,3,3.60,2.80,3.48,89.80,0.79
+10,Natalia Bermúdez,Ingeniería de Software,1,3.73,3.59,3.46,87.20,0.63
+10,Natalia Bermúdez,Ingeniería de Software,2,2.48,2.92,3.57,78.60,0.73
+10,Natalia Bermúdez,Ingeniería de Software,3,3.41,4.29,3.63,84.10,0.69
+10,Natalia Bermúdez,Matemáticas,1,2.36,3.52,3.97,79.40,0.69
+10,Natalia Bermúdez,Matemáticas,2,4.52,3.81,3.55,80.60,0.47
+10,Natalia Bermúdez,Matemáticas,3,2.75,2.48,3.74,84.80,1.00
+10,Natalia Bermúdez,Programación,1,2.41,4.28,3.69,81.90,0.85
+10,Natalia Bermúdez,Programación,2,2.49,3.15,2.95,90.80,0.86
+10,Natalia Bermúdez,Programación,3,4.19,3.25,2.63,98.40,0.56
+10,Natalia Bermúdez,Redes,1,4.62,4.11,4.08,100.00,0.98
+10,Natalia Bermúdez,Redes,2,4.46,3.89,4.00,92.60,0.87
+10,Natalia Bermúdez,Redes,3,4.32,4.02,4.31,100.00,0.64
+10,Natalia Bermúdez,Sistemas,1,3.98,2.81,2.51,76.30,0.82
+10,Natalia Bermúdez,Sistemas,2,4.17,3.06,4.36,78.90,0.54
+10,Natalia Bermúdez,Sistemas,3,3.64,3.39,3.37,98.40,0.95
+11,Laura López,Algoritmos,1,2.36,2.37,3.18,88.00,0.54
+11,Laura López,Algoritmos,2,3.46,4.00,3.89,95.10,0.55
+11,Laura López,Algoritmos,3,3.35,3.42,3.13,94.80,0.75
+11,Laura López,Bases de Datos,1,3.44,3.77,2.46,85.90,1.00
+11,Laura López,Bases de Datos,2,2.02,3.21,2.14,90.30,0.80
+11,Laura López,Bases de Datos,3,4.37,3.07,3.15,100.00,0.61
+11,Laura López,Ingeniería de Software,1,2.82,2.29,2.93,100.00,0.39
+11,Laura López,Ingeniería de Software,2,3.81,2.12,2.82,99.50,0.84
+11,Laura López,Ingeniería de Software,3,2.73,3.11,2.81,83.70,0.92
+11,Laura López,Matemáticas,1,4.15,3.86,3.38,82.20,1.00
+11,Laura López,Matemáticas,2,4.17,4.14,2.99,92.40,0.72
+11,Laura López,Matemáticas,3,3.50,3.18,3.62,99.80,0.77
+11,Laura López,Programación,1,3.99,3.27,2.96,90.40,0.71
+11,Laura López,Programación,2,3.35,3.01,3.18,97.20,0.76
+11,Laura López,Programación,3,2.58,2.87,3.58,85.90,0.85
+11,Laura López,Redes,1,3.30,3.70,3.99,94.70,0.89
+11,Laura López,Redes,2,2.62,3.87,3.02,80.00,0.68
+11,Laura López,Redes,3,3.31,4.37,2.48,90.10,0.68
+11,Laura López,Sistemas,1,3.50,2.89,3.44,90.70,0.71
+11,Laura López,Sistemas,2,2.64,4.27,2.81,100.00,0.95
+11,Laura López,Sistemas,3,3.04,3.23,3.79,100.00,0.67
+12,Adriana Sánchez,Algoritmos,1,4.43,3.92,3.87,100.00,0.91
+12,Adriana Sánchez,Algoritmos,2,4.70,4.06,4.59,96.80,0.78
+12,Adriana Sánchez,Algoritmos,3,3.57,4.09,3.59,87.70,0.40
+12,Adriana Sánchez,Bases de Datos,1,2.79,3.58,2.29,100.00,0.54
+12,Adriana Sánchez,Bases de Datos,2,3.56,2.92,2.51,89.80,0.66
+12,Adriana Sánchez,Bases de Datos,3,4.30,2.69,3.11,94.90,0.75
+12,Adriana Sánchez,Ingeniería de Software,1,4.51,4.19,4.08,87.10,0.72
+12,Adriana Sánchez,Ingeniería de Software,2,4.65,4.10,4.03,82.40,0.79
+12,Adriana Sánchez,Ingeniería de Software,3,4.27,4.66,3.46,78.70,0.48
+12,Adriana Sánchez,Matemáticas,1,3.61,3.26,3.50,97.60,0.83
+12,Adriana Sánchez,Matemáticas,2,3.99,3.04,4.58,88.20,1.00
+12,Adriana Sánchez,Matemáticas,3,4.02,4.08,3.81,85.50,0.77
+12,Adriana Sánchez,Programación,1,3.92,3.87,4.62,100.00,0.80
+12,Adriana Sánchez,Programación,2,3.58,4.38,3.28,87.30,0.91
+12,Adriana Sánchez,Programación,3,3.65,3.08,3.32,97.10,0.96
+12,Adriana Sánchez,Redes,1,4.52,4.62,2.63,100.00,0.70
+12,Adriana Sánchez,Redes,2,3.94,3.97,4.64,100.00,0.81
+12,Adriana Sánchez,Redes,3,4.18,4.31,4.13,88.30,0.44
+12,Adriana Sánchez,Sistemas,1,3.20,4.22,2.89,68.10,0.48
+12,Adriana Sánchez,Sistemas,2,4.75,4.71,4.27,89.20,0.99
+12,Adriana Sánchez,Sistemas,3,3.47,2.57,3.71,89.00,0.81
+13,José Suárez,Algoritmos,1,3.39,3.10,3.95,77.70,1.00
+13,José Suárez,Algoritmos,2,5.00,4.29,4.06,70.50,1.00
+13,José Suárez,Algoritmos,3,4.57,3.94,4.54,79.50,0.73
+13,José Suárez,Bases de Datos,1,3.18,2.87,4.19,100.00,0.99
+13,José Suárez,Bases de Datos,2,3.95,4.12,3.53,100.00,0.75
+13,José Suárez,Bases de Datos,3,4.46,4.84,5.00,100.00,0.69
+13,José Suárez,Ingeniería de Software,1,5.00,4.53,4.03,84.00,0.77
+13,José Suárez,Ingeniería de Software,2,4.64,4.71,3.78,95.60,0.57
+13,José Suárez,Ingeniería de Software,3,4.18,4.98,3.66,87.00,0.79
+13,José Suárez,Matemáticas,1,4.51,4.24,2.74,80.00,0.77
+13,José Suárez,Matemáticas,2,3.24,3.73,2.96,100.00,0.75
+13,José Suárez,Matemáticas,3,4.14,3.01,3.03,100.00,0.88
+13,José Suárez,Programación,1,3.06,2.95,3.72,79.60,0.63
+13,José Suárez,Programación,2,4.29,2.58,4.04,93.30,0.86
+13,José Suárez,Programación,3,3.28,3.24,4.02,92.40,0.90
+13,José Suárez,Redes,1,3.65,3.09,3.18,96.10,0.96
+13,José Suárez,Redes,2,4.00,3.23,3.94,94.00,0.70
+13,José Suárez,Redes,3,3.78,3.46,3.73,99.20,0.89
+13,José Suárez,Sistemas,1,4.62,4.11,3.36,100.00,0.74
+13,José Suárez,Sistemas,2,4.82,3.89,4.54,100.00,0.48
+13,José Suárez,Sistemas,3,4.63,4.27,4.91,77.60,0.75
+14,Lucía Herrera,Algoritmos,1,2.03,1.61,2.43,81.60,1.00
+14,Lucía Herrera,Algoritmos,2,2.21,1.51,2.31,79.10,0.80
+14,Lucía Herrera,Algoritmos,3,1.91,1.66,1.98,88.00,0.57
+14,Lucía Herrera,Bases de Datos,1,2.47,1.97,2.90,73.10,0.75
+14,Lucía Herrera,Bases de Datos,2,2.74,3.74,3.07,71.00,0.83
+14,Lucía Herrera,Bases de Datos,3,2.38,3.03,2.13,85.20,0.87
+14,Lucía Herrera,Ingeniería de Software,1,3.58,2.53,2.85,85.70,0.73
+14,Lucía Herrera,Ingeniería de Software,2,2.65,2.35,2.26,88.50,0.43
+14,Lucía Herrera,Ingeniería de Software,3,2.54,3.32,2.14,88.60,0.46
+14,Lucía Herrera,Matemáticas,1,3.12,3.59,4.16,92.00,0.88
+14,Lucía Herrera,Matemáticas,2,3.99,2.94,4.10,65.00,0.87
+14,Lucía Herrera,Matemáticas,3,2.47,2.33,2.80,100.00,0.75
+14,Lucía Herrera,Programación,1,2.70,2.71,2.99,76.70,0.84
+14,Lucía Herrera,Programación,2,2.79,2.33,3.20,81.70,0.51
+14,Lucía Herrera,Programación,3,3.01,3.14,3.62,90.20,0.72
+14,Lucía Herrera,Redes,1,2.53,1.29,2.47,75.90,0.70
+14,Lucía Herrera,Redes,2,2.11,1.06,1.69,84.20,0.63
+14,Lucía Herrera,Redes,3,2.86,2.49,1.76,84.10,0.48
+14,Lucía Herrera,Sistemas,1,2.73,1.49,1.77,64.40,0.95
+14,Lucía Herrera,Sistemas,2,2.72,1.87,2.75,73.40,0.51
+14,Lucía Herrera,Sistemas,3,2.23,2.08,2.78,99.50,1.00
+15,Isabella Medina,Algoritmos,1,2.88,2.80,2.82,82.90,0.73
+15,Isabella Medina,Algoritmos,2,3.61,2.72,2.62,96.50,0.85
+15,Isabella Medina,Algoritmos,3,2.75,2.57,3.10,69.90,0.77
+15,Isabella Medina,Bases de Datos,1,3.53,2.77,3.21,72.90,0.52
+15,Isabella Medina,Bases de Datos,2,3.39,2.87,2.25,89.10,0.33
+15,Isabella Medina,Bases de Datos,3,2.04,2.45,2.47,85.70,0.32
+15,Isabella Medina,Ingeniería de Software,1,2.89,2.35,2.70,62.40,0.92
+15,Isabella Medina,Ingeniería de Software,2,2.50,3.40,3.47,82.10,0.52
+15,Isabella Medina,Ingeniería de Software,3,3.35,2.12,3.41,78.50,0.34
+15,Isabella Medina,Matemáticas,1,2.90,2.05,2.83,71.50,0.81
+15,Isabella Medina,Matemáticas,2,2.73,2.09,3.15,100.00,0.86
+15,Isabella Medina,Matemáticas,3,3.01,3.12,3.20,78.80,0.59
+15,Isabella Medina,Programación,1,3.62,3.65,3.04,67.60,0.84
+15,Isabella Medina,Programación,2,3.38,4.48,3.22,91.10,0.74
+15,Isabella Medina,Programación,3,3.40,3.14,3.90,65.70,0.50
+15,Isabella Medina,Redes,1,3.17,2.45,2.93,76.20,0.65
+15,Isabella Medina,Redes,2,2.06,2.17,0.91,89.20,0.65
+15,Isabella Medina,Redes,3,1.58,0.98,2.52,86.80,0.92
+15,Isabella Medina,Sistemas,1,3.50,3.96,3.19,74.80,0.68
+15,Isabella Medina,Sistemas,2,3.95,3.47,3.70,78.40,0.79
+15,Isabella Medina,Sistemas,3,4.28,3.70,3.04,74.40,0.83
+16,Gabriel Pardo,Algoritmos,1,3.53,2.25,2.69,93.10,0.72
+16,Gabriel Pardo,Algoritmos,2,1.94,2.87,2.58,62.00,0.56
+16,Gabriel Pardo,Algoritmos,3,2.55,2.87,2.13,85.90,0.75
+16,Gabriel Pardo,Bases de Datos,1,3.96,2.79,3.01,81.10,0.71
+16,Gabriel Pardo,Bases de Datos,2,3.21,3.74,3.44,70.90,0.61
+16,Gabriel Pardo,Bases de Datos,3,3.67,3.44,3.50,100.00,0.61
+16,Gabriel Pardo,Ingeniería de Software,1,3.16,2.67,3.14,64.80,0.48
+16,Gabriel Pardo,Ingeniería de Software,2,4.02,2.74,3.63,93.50,0.36
+16,Gabriel Pardo,Ingeniería de Software,3,3.30,2.82,3.49,62.60,0.66
+16,Gabriel Pardo,Matemáticas,1,3.01,1.78,1.56,93.50,0.55
+16,Gabriel Pardo,Matemáticas,2,2.09,2.86,2.32,81.10,0.71
+16,Gabriel Pardo,Matemáticas,3,2.87,2.95,2.24,87.60,0.90
+16,Gabriel Pardo,Programación,1,2.36,2.55,2.26,84.50,0.49
+16,Gabriel Pardo,Programación,2,2.55,2.84,2.71,84.40,1.00
+16,Gabriel Pardo,Programación,3,3.13,2.57,3.73,88.90,0.56
+16,Gabriel Pardo,Redes,1,3.05,2.96,1.83,84.90,0.94
+16,Gabriel Pardo,Redes,2,2.56,2.65,3.01,62.70,0.55
+16,Gabriel Pardo,Redes,3,2.48,2.20,3.26,73.60,0.78
+16,Gabriel Pardo,Sistemas,1,2.34,2.87,2.59,94.10,0.60
+16,Gabriel Pardo,Sistemas,2,3.33,2.56,2.06,80.00,0.40
+16,Gabriel Pardo,Sistemas,3,1.57,2.39,1.87,72.50,0.68
+17,Manuela Cárdenas,Algoritmos,1,2.50,2.70,2.83,100.00,0.92
+17,Manuela Cárdenas,Algoritmos,2,3.39,3.45,4.28,91.80,0.82
+17,Manuela Cárdenas,Algoritmos,3,3.17,4.55,2.79,78.40,0.48
+17,Manuela Cárdenas,Bases de Datos,1,2.27,2.43,3.19,74.70,0.77
+17,Manuela Cárdenas,Bases de Datos,2,1.43,2.69,2.43,85.40,0.73
+17,Manuela Cárdenas,Bases de Datos,3,4.07,2.33,2.45,91.30,0.82
+17,Manuela Cárdenas,Ingeniería de Software,1,2.59,3.36,3.57,77.80,0.43
+17,Manuela Cárdenas,Ingeniería de Software,2,3.34,3.74,2.95,65.20,0.42
+17,Manuela Cárdenas,Ingeniería de Software,3,3.34,4.46,3.65,100.00,0.62
+17,Manuela Cárdenas,Matemáticas,1,3.13,1.98,2.55,85.60,0.88
+17,Manuela Cárdenas,Matemáticas,2,2.28,2.08,1.72,84.50,0.61
+17,Manuela Cárdenas,Matemáticas,3,3.59,3.15,2.87,81.50,0.92
+17,Manuela Cárdenas,Programación,1,3.08,2.48,2.49,90.60,0.32
+17,Manuela Cárdenas,Programación,2,2.58,2.40,1.79,75.10,0.62
+17,Manuela Cárdenas,Programación,3,2.70,1.68,3.43,71.10,0.95
+17,Manuela Cárdenas,Redes,1,2.65,2.28,2.12,71.30,0.88
+17,Manuela Cárdenas,Redes,2,2.41,3.53,2.35,100.00,0.77
+17,Manuela Cárdenas,Redes,3,3.19,2.41,3.53,88.40,0.49
+17,Manuela Cárdenas,Sistemas,1,2.42,2.50,2.61,85.10,0.16
+17,Manuela Cárdenas,Sistemas,2,2.54,3.20,2.46,73.00,1.00
+17,Manuela Cárdenas,Sistemas,3,3.25,3.03,2.76,75.70,0.46
+18,Sofía Vega,Algoritmos,1,3.11,2.84,3.07,86.40,0.81
+18,Sofía Vega,Algoritmos,2,2.67,2.90,2.84,98.40,0.51
+18,Sofía Vega,Algoritmos,3,3.40,2.69,1.76,79.20,0.68
+18,Sofía Vega,Bases de Datos,1,3.36,2.86,3.14,98.90,0.81
+18,Sofía Vega,Bases de Datos,2,2.66,4.20,3.24,87.40,0.40
+18,Sofía Vega,Bases de Datos,3,3.98,3.39,4.20,84.50,0.50
+18,Sofía Vega,Ingeniería de Software,1,1.34,1.66,2.66,73.30,0.44
+18,Sofía Vega,Ingeniería de Software,2,1.36,1.83,1.33,94.50,0.52
+18,Sofía Vega,Ingeniería de Software,3,1.45,1.65,2.12,74.00,0.80
+18,Sofía Vega,Matemáticas,1,2.79,2.70,3.07,90.90,0.36
+18,Sofía Vega,Matemáticas,2,2.97,2.22,2.71,77.40,0.85
+18,Sofía Vega,Matemáticas,3,3.12,2.83,2.27,76.80,0.79
+18,Sofía Vega,Programación,1,2.47,2.06,2.43,89.50,0.48
+18,Sofía Vega,Programación,2,2.40,2.11,2.25,76.50,0.31
+18,Sofía Vega,Programación,3,2.20,0.57,1.15,93.40,0.86
+18,Sofía Vega,Redes,1,1.92,2.54,1.08,82.70,0.69
+18,Sofía Vega,Redes,2,1.62,2.75,1.47,86.20,0.74
+18,Sofía Vega,Redes,3,1.52,1.36,1.79,79.90,0.45
+18,Sofía Vega,Sistemas,1,3.50,3.34,1.93,86.80,0.65
+18,Sofía Vega,Sistemas,2,2.89,3.75,3.02,80.70,0.70
+18,Sofía Vega,Sistemas,3,3.23,3.02,3.64,81.30,0.59
+19,Daniel Herrera,Algoritmos,1,1.64,2.03,1.64,85.90,0.80
+19,Daniel Herrera,Algoritmos,2,1.26,1.85,1.29,77.10,0.32
+19,Daniel Herrera,Algoritmos,3,1.94,2.24,1.90,71.80,0.61
+19,Daniel Herrera,Bases de Datos,1,0.94,0.19,0.40,60.20,0.14
+19,Daniel Herrera,Bases de Datos,2,1.11,0.57,0.44,94.10,0.84
+19,Daniel Herrera,Bases de Datos,3,0.92,0.62,0.00,74.10,0.48
+19,Daniel Herrera,Ingeniería de Software,1,0.99,1.52,1.63,80.10,0.37
+19,Daniel Herrera,Ingeniería de Software,2,1.61,1.52,2.25,77.90,0.53
+19,Daniel Herrera,Ingeniería de Software,3,2.30,2.61,1.95,76.20,0.94
+19,Daniel Herrera,Matemáticas,1,0.46,1.62,1.08,73.70,0.44
+19,Daniel Herrera,Matemáticas,2,0.70,0.82,1.31,91.40,0.79
+19,Daniel Herrera,Matemáticas,3,1.08,0.89,0.63,79.70,0.41
+19,Daniel Herrera,Programación,1,1.21,1.45,1.05,56.10,0.00
+19,Daniel Herrera,Programación,2,2.21,1.27,2.32,75.30,0.74
+19,Daniel Herrera,Programación,3,2.02,1.90,1.83,78.10,0.30
+19,Daniel Herrera,Redes,1,3.07,2.79,2.92,71.70,0.34
+19,Daniel Herrera,Redes,2,2.52,2.08,2.09,77.90,0.44
+19,Daniel Herrera,Redes,3,2.66,1.91,1.81,69.60,0.58
+19,Daniel Herrera,Sistemas,1,1.89,1.16,1.66,79.10,0.00
+19,Daniel Herrera,Sistemas,2,1.66,2.11,2.46,64.60,0.49
+19,Daniel Herrera,Sistemas,3,1.12,1.72,1.63,69.10,0.65
+20,Paula Medina,Algoritmos,1,3.94,2.90,2.33,91.10,0.86
+20,Paula Medina,Algoritmos,2,3.11,4.45,3.70,88.70,0.73
+20,Paula Medina,Algoritmos,3,4.31,4.15,3.77,78.60,0.39
+20,Paula Medina,Bases de Datos,1,4.01,3.87,3.15,92.40,0.83
+20,Paula Medina,Bases de Datos,2,4.15,3.27,3.39,100.00,0.81
+20,Paula Medina,Bases de Datos,3,3.20,3.55,4.00,100.00,0.31
+20,Paula Medina,Ingeniería de Software,1,4.26,4.31,5.00,92.60,1.00
+20,Paula Medina,Ingeniería de Software,2,4.67,3.75,4.51,82.20,0.59
+20,Paula Medina,Ingeniería de Software,3,4.45,5.00,4.67,83.10,0.64
+20,Paula Medina,Matemáticas,1,3.32,3.42,2.71,92.70,0.84
+20,Paula Medina,Matemáticas,2,2.48,2.91,3.26,83.80,0.80
+20,Paula Medina,Matemáticas,3,1.80,1.77,4.04,81.20,0.54
+20,Paula Medina,Programación,1,3.27,2.77,3.84,82.60,0.60
+20,Paula Medina,Programación,2,3.12,4.14,3.15,84.10,0.81
+20,Paula Medina,Programación,3,2.89,2.68,2.98,77.40,0.96
+20,Paula Medina,Redes,1,3.39,3.95,5.00,69.70,0.58
+20,Paula Medina,Redes,2,3.79,3.00,3.20,85.70,0.63
+20,Paula Medina,Redes,3,3.83,3.92,3.94,100.00,0.68
+20,Paula Medina,Sistemas,1,2.64,3.48,2.91,74.30,1.00
+20,Paula Medina,Sistemas,2,3.31,3.06,2.79,74.90,0.61
+20,Paula Medina,Sistemas,3,3.28,3.63,3.31,98.30,0.69
+21,Carolina Medina,Algoritmos,1,2.81,1.89,2.28,76.50,0.78
+21,Carolina Medina,Algoritmos,2,2.44,1.48,0.75,98.50,0.55
+21,Carolina Medina,Algoritmos,3,2.48,2.56,1.79,83.40,1.00
+21,Carolina Medina,Bases de Datos,1,1.86,1.81,1.24,79.30,0.78
+21,Carolina Medina,Bases de Datos,2,1.93,2.07,1.89,73.40,0.84
+21,Carolina Medina,Bases de Datos,3,2.10,2.50,0.81,69.70,0.53
+21,Carolina Medina,Ingeniería de Software,1,3.38,3.20,2.78,78.00,0.80
+21,Carolina Medina,Ingeniería de Software,2,2.60,2.55,2.69,76.20,0.54
+21,Carolina Medina,Ingeniería de Software,3,3.72,2.76,3.60,84.80,0.65
+21,Carolina Medina,Matemáticas,1,2.51,2.28,2.19,74.10,0.63
+21,Carolina Medina,Matemáticas,2,3.09,1.80,2.93,91.60,0.52
+21,Carolina Medina,Matemáticas,3,3.55,2.64,1.45,91.50,0.86
+21,Carolina Medina,Programación,1,2.68,3.89,3.09,100.00,0.84
+21,Carolina Medina,Programación,2,3.22,2.67,3.04,88.80,0.63
+21,Carolina Medina,Programación,3,2.79,2.83,2.92,61.50,0.85
+21,Carolina Medina,Redes,1,2.55,1.03,1.99,96.10,0.77
+21,Carolina Medina,Redes,2,1.89,2.38,2.07,94.80,0.93
+21,Carolina Medina,Redes,3,1.92,2.26,3.27,97.00,0.72
+21,Carolina Medina,Sistemas,1,2.39,2.87,1.57,99.30,0.55
+21,Carolina Medina,Sistemas,2,2.35,3.02,2.84,81.70,0.51
+21,Carolina Medina,Sistemas,3,2.32,2.20,2.63,70.40,0.60
+22,Adriana Ramírez,Algoritmos,1,3.63,4.17,3.61,100.00,0.93
+22,Adriana Ramírez,Algoritmos,2,3.65,3.25,3.55,92.40,0.40
+22,Adriana Ramírez,Algoritmos,3,2.95,2.98,2.95,93.20,0.55
+22,Adriana Ramírez,Bases de Datos,1,2.07,2.91,1.86,68.20,0.67
+22,Adriana Ramírez,Bases de Datos,2,2.19,2.40,2.74,79.00,0.25
+22,Adriana Ramírez,Bases de Datos,3,2.80,2.06,2.49,78.50,0.97
+22,Adriana Ramírez,Ingeniería de Software,1,3.35,3.14,3.47,89.40,0.56
+22,Adriana Ramírez,Ingeniería de Software,2,3.23,4.06,3.78,78.00,0.43
+22,Adriana Ramírez,Ingeniería de Software,3,3.28,3.15,3.42,100.00,0.72
+22,Adriana Ramírez,Matemáticas,1,3.72,3.11,3.36,90.30,0.56
+22,Adriana Ramírez,Matemáticas,2,2.63,2.03,2.39,76.20,0.84
+22,Adriana Ramírez,Matemáticas,3,2.73,2.69,3.08,68.60,0.56
+22,Adriana Ramírez,Programación,1,3.71,3.33,3.07,81.30,0.88
+22,Adriana Ramírez,Programación,2,2.91,3.97,2.29,77.10,0.65
+22,Adriana Ramírez,Programación,3,3.76,3.89,4.14,75.10,0.63
+22,Adriana Ramírez,Redes,1,2.67,3.48,3.14,86.00,0.83
+22,Adriana Ramírez,Redes,2,2.23,2.47,3.52,90.40,0.89
+22,Adriana Ramírez,Redes,3,4.09,3.32,4.12,96.50,0.14
+22,Adriana Ramírez,Sistemas,1,3.74,3.65,3.34,90.60,0.76
+22,Adriana Ramírez,Sistemas,2,3.62,2.95,3.19,85.00,1.00
+22,Adriana Ramírez,Sistemas,3,3.01,4.08,3.67,100.00,0.57
+23,Felipe Jiménez,Algoritmos,1,2.67,3.38,2.76,87.50,0.55
+23,Felipe Jiménez,Algoritmos,2,2.40,2.51,2.73,83.10,0.35
+23,Felipe Jiménez,Algoritmos,3,2.73,3.27,3.15,87.40,0.66
+23,Felipe Jiménez,Bases de Datos,1,3.82,3.24,3.81,95.10,0.66
+23,Felipe Jiménez,Bases de Datos,2,1.92,2.84,2.80,100.00,0.78
+23,Felipe Jiménez,Bases de Datos,3,3.10,2.92,2.17,83.40,0.70
+23,Felipe Jiménez,Ingeniería de Software,1,2.86,2.27,2.75,77.80,0.86
+23,Felipe Jiménez,Ingeniería de Software,2,1.29,2.10,2.66,73.50,0.54
+23,Felipe Jiménez,Ingeniería de Software,3,2.45,1.89,2.17,84.80,0.72
+23,Felipe Jiménez,Matemáticas,1,3.44,4.18,4.10,78.40,0.64
+23,Felipe Jiménez,Matemáticas,2,3.95,3.83,4.06,87.90,0.32
+23,Felipe Jiménez,Matemáticas,3,3.64,4.01,4.30,85.70,0.33
+23,Felipe Jiménez,Programación,1,1.99,2.54,2.58,77.30,0.48
+23,Felipe Jiménez,Programación,2,3.08,2.45,2.42,84.20,0.82
+23,Felipe Jiménez,Programación,3,2.96,2.04,2.92,91.70,0.81
+23,Felipe Jiménez,Redes,1,1.61,1.73,2.30,72.60,0.97
+23,Felipe Jiménez,Redes,2,2.05,1.49,1.61,89.80,0.55
+23,Felipe Jiménez,Redes,3,3.29,3.15,2.30,93.70,0.85
+23,Felipe Jiménez,Sistemas,1,2.18,2.18,1.87,100.00,0.66
+23,Felipe Jiménez,Sistemas,2,1.80,1.95,2.28,93.70,0.93
+23,Felipe Jiménez,Sistemas,3,2.25,2.04,2.99,75.10,0.99
+24,David Romero,Algoritmos,1,2.56,2.14,1.44,87.00,0.49
+24,David Romero,Algoritmos,2,2.33,1.54,1.62,87.40,1.00
+24,David Romero,Algoritmos,3,2.13,1.09,1.50,91.00,0.57
+24,David Romero,Bases de Datos,1,2.53,3.22,3.01,75.60,0.83
+24,David Romero,Bases de Datos,2,2.09,2.42,2.32,87.70,0.63
+24,David Romero,Bases de Datos,3,2.25,2.16,2.20,93.90,0.62
+24,David Romero,Ingeniería de Software,1,2.44,2.08,1.96,69.20,0.74
+24,David Romero,Ingeniería de Software,2,2.74,2.35,1.71,85.30,0.42
+24,David Romero,Ingeniería de Software,3,1.90,2.51,1.59,80.30,0.78
+24,David Romero,Matemáticas,1,1.67,1.98,1.47,84.60,0.42
+24,David Romero,Matemáticas,2,2.08,2.03,2.12,63.80,0.09
+24,David Romero,Matemáticas,3,2.65,1.82,2.65,86.40,0.26
+24,David Romero,Programación,1,3.58,1.43,1.39,67.30,0.68
+24,David Romero,Programación,2,2.25,1.38,2.51,91.90,0.54
+24,David Romero,Programación,3,2.50,2.01,1.74,73.30,0.84
+24,David Romero,Redes,1,2.80,3.28,2.95,77.90,0.38
+24,David Romero,Redes,2,2.33,2.68,2.68,96.60,0.74
+24,David Romero,Redes,3,2.69,1.95,2.86,70.00,0.90
+24,David Romero,Sistemas,1,2.95,1.61,2.37,91.60,0.66
+24,David Romero,Sistemas,2,2.99,1.52,2.59,70.30,0.95
+24,David Romero,Sistemas,3,3.63,3.03,3.31,88.70,0.85
+25,Miguel Herrera,Algoritmos,1,3.74,4.10,3.37,86.70,0.83
+25,Miguel Herrera,Algoritmos,2,3.62,3.57,4.30,100.00,0.74
+25,Miguel Herrera,Algoritmos,3,4.79,4.06,3.74,100.00,0.68
+25,Miguel Herrera,Bases de Datos,1,5.00,3.95,4.35,72.90,0.54
+25,Miguel Herrera,Bases de Datos,2,4.79,4.52,3.64,100.00,0.80
+25,Miguel Herrera,Bases de Datos,3,4.72,5.00,4.05,87.40,0.97
+25,Miguel Herrera,Ingeniería de Software,1,3.82,4.06,5.00,82.10,0.71
+25,Miguel Herrera,Ingeniería de Software,2,4.49,4.23,4.59,100.00,0.30
+25,Miguel Herrera,Ingeniería de Software,3,4.08,4.62,5.00,100.00,1.00
+25,Miguel Herrera,Matemáticas,1,4.55,4.99,4.09,97.70,0.95
+25,Miguel Herrera,Matemáticas,2,5.00,4.59,4.01,78.50,0.77
+25,Miguel Herrera,Matemáticas,3,4.63,4.80,4.67,83.80,0.50
+25,Miguel Herrera,Programación,1,4.10,3.95,4.64,80.20,0.76
+25,Miguel Herrera,Programación,2,4.20,3.63,3.74,100.00,0.94
+25,Miguel Herrera,Programación,3,4.18,2.98,4.05,90.80,0.73
+25,Miguel Herrera,Redes,1,4.82,3.52,4.91,93.60,1.00
+25,Miguel Herrera,Redes,2,3.60,4.20,4.88,87.70,0.99
+25,Miguel Herrera,Redes,3,4.50,4.75,4.28,77.70,0.89
+25,Miguel Herrera,Sistemas,1,4.37,3.56,3.66,100.00,0.65
+25,Miguel Herrera,Sistemas,2,4.41,3.68,4.19,89.30,0.77
+25,Miguel Herrera,Sistemas,3,3.87,4.51,4.53,85.40,1.00
+26,Gabriela Pardo,Algoritmos,1,2.95,2.93,2.20,87.40,0.74
+26,Gabriela Pardo,Algoritmos,2,3.20,2.66,3.55,91.70,0.50
+26,Gabriela Pardo,Algoritmos,3,3.03,3.78,3.09,90.80,0.48
+26,Gabriela Pardo,Bases de Datos,1,3.77,3.26,2.01,81.10,0.75
+26,Gabriela Pardo,Bases de Datos,2,2.22,2.56,3.60,87.40,0.55
+26,Gabriela Pardo,Bases de Datos,3,3.33,3.04,2.89,76.20,0.69
+26,Gabriela Pardo,Ingeniería de Software,1,3.50,2.52,3.14,94.80,0.84
+26,Gabriela Pardo,Ingeniería de Software,2,3.15,3.01,3.15,89.80,0.48
+26,Gabriela Pardo,Ingeniería de Software,3,3.15,2.32,3.04,100.00,0.79
+26,Gabriela Pardo,Matemáticas,1,2.41,2.58,2.44,66.10,0.51
+26,Gabriela Pardo,Matemáticas,2,2.42,1.53,1.91,86.90,0.80
+26,Gabriela Pardo,Matemáticas,3,1.40,2.46,2.25,89.10,0.32
+26,Gabriela Pardo,Programación,1,3.13,3.28,2.71,86.30,0.98
+26,Gabriela Pardo,Programación,2,3.52,3.61,3.25,95.50,0.93
+26,Gabriela Pardo,Programación,3,3.28,3.35,3.01,63.60,0.74
+26,Gabriela Pardo,Redes,1,2.28,2.54,3.37,84.20,0.68
+26,Gabriela Pardo,Redes,2,2.33,3.45,3.06,84.20,0.66
+26,Gabriela Pardo,Redes,3,2.50,2.92,2.89,90.10,0.69
+26,Gabriela Pardo,Sistemas,1,2.89,2.33,3.05,78.80,0.81
+26,Gabriela Pardo,Sistemas,2,3.87,2.31,2.54,89.10,0.74
+26,Gabriela Pardo,Sistemas,3,3.55,3.33,2.76,76.50,0.45
+27,Sebastián Rincón,Algoritmos,1,3.54,4.37,5.00,100.00,0.87
+27,Sebastián Rincón,Algoritmos,2,4.93,4.52,3.94,93.60,0.79
+27,Sebastián Rincón,Algoritmos,3,3.90,5.00,5.00,86.60,0.84
+27,Sebastián Rincón,Bases de Datos,1,4.87,4.74,5.00,100.00,1.00
+27,Sebastián Rincón,Bases de Datos,2,5.00,4.91,4.96,88.30,0.68
+27,Sebastián Rincón,Bases de Datos,3,5.00,5.00,5.00,100.00,0.85
+27,Sebastián Rincón,Ingeniería de Software,1,4.53,3.75,4.31,100.00,1.00
+27,Sebastián Rincón,Ingeniería de Software,2,3.67,4.40,3.38,95.50,0.88
+27,Sebastián Rincón,Ingeniería de Software,3,2.51,3.82,3.48,97.40,0.99
+27,Sebastián Rincón,Matemáticas,1,4.99,5.00,5.00,88.30,1.00
+27,Sebastián Rincón,Matemáticas,2,5.00,4.03,4.75,81.50,1.00
+27,Sebastián Rincón,Matemáticas,3,4.88,4.97,4.62,95.80,0.71
+27,Sebastián Rincón,Programación,1,4.55,5.00,4.52,100.00,0.69
+27,Sebastián Rincón,Programación,2,4.76,4.83,5.00,92.70,0.85
+27,Sebastián Rincón,Programación,3,4.91,4.54,4.77,85.90,0.68
+27,Sebastián Rincón,Redes,1,4.39,4.39,4.48,94.20,0.69
+27,Sebastián Rincón,Redes,2,4.41,4.03,4.81,97.80,0.72
+27,Sebastián Rincón,Redes,3,4.06,4.67,3.93,100.00,0.71
+27,Sebastián Rincón,Sistemas,1,4.10,3.66,4.10,89.20,0.63
+27,Sebastián Rincón,Sistemas,2,3.52,3.79,4.65,100.00,0.94
+27,Sebastián Rincón,Sistemas,3,3.45,4.96,3.88,93.30,0.91
+28,Julieta Rojas,Algoritmos,1,2.91,2.71,2.49,67.80,0.97
+28,Julieta Rojas,Algoritmos,2,3.37,3.37,3.82,100.00,0.86
+28,Julieta Rojas,Algoritmos,3,3.12,3.72,3.68,86.60,0.82
+28,Julieta Rojas,Bases de Datos,1,3.78,2.96,3.13,100.00,0.58
+28,Julieta Rojas,Bases de Datos,2,3.62,2.66,3.62,86.50,0.50
+28,Julieta Rojas,Bases de Datos,3,3.77,2.32,4.36,83.20,0.99
+28,Julieta Rojas,Ingeniería de Software,1,1.57,2.26,2.42,86.30,0.69
+28,Julieta Rojas,Ingeniería de Software,2,3.04,2.71,2.85,90.60,0.65
+28,Julieta Rojas,Ingeniería de Software,3,2.60,3.18,2.99,97.80,0.70
+28,Julieta Rojas,Matemáticas,1,4.74,3.81,4.12,97.60,0.87
+28,Julieta Rojas,Matemáticas,2,3.80,4.36,4.01,89.50,0.73
+28,Julieta Rojas,Matemáticas,3,3.53,3.31,3.49,97.40,0.25
+28,Julieta Rojas,Programación,1,2.44,2.15,2.69,88.90,0.52
+28,Julieta Rojas,Programación,2,2.12,2.61,3.20,73.90,1.00
+28,Julieta Rojas,Programación,3,3.07,2.42,2.23,74.70,0.74
+28,Julieta Rojas,Redes,1,2.48,3.69,2.89,72.90,0.55
+28,Julieta Rojas,Redes,2,2.71,2.29,2.10,85.10,0.64
+28,Julieta Rojas,Redes,3,2.87,1.81,2.35,77.30,0.84
+28,Julieta Rojas,Sistemas,1,3.92,2.42,3.55,89.00,0.64
+28,Julieta Rojas,Sistemas,2,3.86,2.93,3.08,80.00,0.73
+28,Julieta Rojas,Sistemas,3,3.29,3.20,3.06,72.30,1.00
+29,Tomás Rincón,Algoritmos,1,1.19,1.13,1.98,84.20,0.44
+29,Tomás Rincón,Algoritmos,2,1.50,1.31,2.32,75.90,0.65
+29,Tomás Rincón,Algoritmos,3,1.70,1.56,1.19,55.10,0.54
+29,Tomás Rincón,Bases de Datos,1,1.67,1.80,1.55,78.80,0.83
+29,Tomás Rincón,Bases de Datos,2,2.09,1.53,1.02,90.90,0.68
+29,Tomás Rincón,Bases de Datos,3,1.82,1.59,1.92,78.40,0.57
+29,Tomás Rincón,Ingeniería de Software,1,1.65,2.08,2.36,96.30,0.92
+29,Tomás Rincón,Ingeniería de Software,2,2.21,1.44,1.70,100.00,0.69
+29,Tomás Rincón,Ingeniería de Software,3,1.58,1.86,2.51,80.20,0.77
+29,Tomás Rincón,Matemáticas,1,1.60,2.68,2.28,89.10,0.25
+29,Tomás Rincón,Matemáticas,2,1.48,2.22,1.94,73.80,0.98
+29,Tomás Rincón,Matemáticas,3,1.07,1.67,2.76,97.40,0.67
+29,Tomás Rincón,Programación,1,2.42,2.02,1.78,95.60,0.71
+29,Tomás Rincón,Programación,2,1.43,1.88,1.51,81.60,1.00
+29,Tomás Rincón,Programación,3,3.32,1.40,1.28,75.70,0.85
+29,Tomás Rincón,Redes,1,2.54,1.49,2.40,95.30,0.50
+29,Tomás Rincón,Redes,2,2.42,2.51,2.18,63.70,0.27
+29,Tomás Rincón,Redes,3,1.87,2.80,1.81,82.80,0.95
+29,Tomás Rincón,Sistemas,1,1.04,1.77,1.92,70.40,1.00
+29,Tomás Rincón,Sistemas,2,0.35,1.32,1.60,90.40,0.71
+29,Tomás Rincón,Sistemas,3,1.14,0.94,1.42,79.30,0.41
+30,Martín Herrera,Algoritmos,1,5.00,5.00,4.38,93.40,0.72
+30,Martín Herrera,Algoritmos,2,4.58,4.58,4.74,74.50,0.64
+30,Martín Herrera,Algoritmos,3,4.90,5.00,4.94,78.40,0.80
+30,Martín Herrera,Bases de Datos,1,3.38,2.65,3.59,78.80,0.72
+30,Martín Herrera,Bases de Datos,2,3.60,3.56,3.53,83.80,0.67
+30,Martín Herrera,Bases de Datos,3,3.31,4.33,3.27,91.30,0.34
+30,Martín Herrera,Ingeniería de Software,1,4.03,3.03,3.35,74.00,0.64
+30,Martín Herrera,Ingeniería de Software,2,4.69,4.15,4.86,81.90,0.50
+30,Martín Herrera,Ingeniería de Software,3,3.76,3.69,3.74,85.20,0.65
+30,Martín Herrera,Matemáticas,1,4.50,3.77,4.14,79.50,0.23
+30,Martín Herrera,Matemáticas,2,3.78,3.14,4.71,94.50,0.40
+30,Martín Herrera,Matemáticas,3,4.44,4.00,4.94,76.40,0.62
+30,Martín Herrera,Programación,1,3.13,3.19,2.41,89.40,0.95
+30,Martín Herrera,Programación,2,3.57,3.32,3.15,87.60,0.76
+30,Martín Herrera,Programación,3,3.43,3.06,2.89,77.70,0.86
+30,Martín Herrera,Redes,1,3.44,4.24,3.34,81.20,0.99
+30,Martín Herrera,Redes,2,3.45,4.30,4.00,96.20,0.76
+30,Martín Herrera,Redes,3,4.21,3.83,5.00,100.00,0.55
+30,Martín Herrera,Sistemas,1,4.83,2.82,3.35,87.40,0.73
+30,Martín Herrera,Sistemas,2,4.39,3.82,4.63,85.50,0.82
+30,Martín Herrera,Sistemas,3,4.12,4.71,4.76,88.10,0.40
+31,Valeria Rincón,Algoritmos,1,4.39,3.74,4.23,98.50,0.65
+31,Valeria Rincón,Algoritmos,2,4.36,4.89,4.87,85.60,1.00
+31,Valeria Rincón,Algoritmos,3,5.00,4.40,5.00,100.00,1.00
+31,Valeria Rincón,Bases de Datos,1,4.43,3.41,4.94,80.10,0.71
+31,Valeria Rincón,Bases de Datos,2,4.44,4.88,4.91,83.10,0.80
+31,Valeria Rincón,Bases de Datos,3,3.51,4.91,4.40,89.80,0.57
+31,Valeria Rincón,Ingeniería de Software,1,4.74,5.00,5.00,89.30,1.00
+31,Valeria Rincón,Ingeniería de Software,2,4.95,5.00,4.28,86.40,0.72
+31,Valeria Rincón,Ingeniería de Software,3,4.22,4.74,5.00,76.50,0.58
+31,Valeria Rincón,Matemáticas,1,3.16,3.42,2.78,91.60,0.91
+31,Valeria Rincón,Matemáticas,2,3.55,4.31,3.68,100.00,1.00
+31,Valeria Rincón,Matemáticas,3,3.82,3.01,3.17,76.80,0.79
+31,Valeria Rincón,Programación,1,4.02,4.21,3.65,100.00,0.65
+31,Valeria Rincón,Programación,2,3.65,4.22,3.90,92.10,1.00
+31,Valeria Rincón,Programación,3,4.16,4.53,4.74,67.50,1.00
+31,Valeria Rincón,Redes,1,4.38,4.06,5.00,87.40,0.80
+31,Valeria Rincón,Redes,2,5.00,5.00,3.56,91.30,0.86
+31,Valeria Rincón,Redes,3,4.56,4.06,4.00,99.70,0.63
+31,Valeria Rincón,Sistemas,1,5.00,3.68,4.53,94.20,0.99
+31,Valeria Rincón,Sistemas,2,4.26,5.00,5.00,94.10,0.74
+31,Valeria Rincón,Sistemas,3,4.25,4.68,4.08,92.80,1.00
+32,Miguel Martínez,Algoritmos,1,2.01,0.65,1.41,91.40,0.55
+32,Miguel Martínez,Algoritmos,2,1.92,0.48,0.83,72.70,0.69
+32,Miguel Martínez,Algoritmos,3,1.25,0.86,1.68,75.90,0.36
+32,Miguel Martínez,Bases de Datos,1,2.47,1.92,1.58,71.90,0.64
+32,Miguel Martínez,Bases de Datos,2,1.69,1.46,1.51,69.60,0.66
+32,Miguel Martínez,Bases de Datos,3,1.49,2.37,1.28,84.50,0.76
+32,Miguel Martínez,Ingeniería de Software,1,2.69,2.22,2.42,67.90,0.53
+32,Miguel Martínez,Ingeniería de Software,2,1.75,1.91,1.99,68.60,0.72
+32,Miguel Martínez,Ingeniería de Software,3,2.31,2.19,1.70,93.40,0.45
+32,Miguel Martínez,Matemáticas,1,1.38,1.71,1.85,78.20,0.86
+32,Miguel Martínez,Matemáticas,2,1.61,1.96,1.80,74.70,0.44
+32,Miguel Martínez,Matemáticas,3,1.44,1.22,1.66,75.10,0.55
+32,Miguel Martínez,Programación,1,0.81,1.74,2.52,77.80,0.47
+32,Miguel Martínez,Programación,2,1.40,0.88,1.49,81.00,0.44
+32,Miguel Martínez,Programación,3,1.55,0.80,0.92,84.60,0.56
+32,Miguel Martínez,Redes,1,2.89,2.11,1.88,77.60,0.62
+32,Miguel Martínez,Redes,2,2.38,1.50,0.81,79.30,0.70
+32,Miguel Martínez,Redes,3,1.00,1.32,1.69,60.10,0.71
+32,Miguel Martínez,Sistemas,1,1.04,1.36,1.66,82.30,0.64
+32,Miguel Martínez,Sistemas,2,0.15,1.89,0.75,70.80,0.69
+32,Miguel Martínez,Sistemas,3,2.29,1.48,1.85,81.90,0.69
+33,Ana Suárez,Algoritmos,1,3.07,3.61,3.06,75.60,0.74
+33,Ana Suárez,Algoritmos,2,3.18,3.60,3.28,83.20,0.58
+33,Ana Suárez,Algoritmos,3,2.38,3.15,3.53,89.70,0.97
+33,Ana Suárez,Bases de Datos,1,3.73,2.32,3.22,71.00,0.66
+33,Ana Suárez,Bases de Datos,2,2.23,3.05,3.49,74.40,0.99
+33,Ana Suárez,Bases de Datos,3,3.40,3.00,2.77,100.00,1.00
+33,Ana Suárez,Ingeniería de Software,1,2.71,3.10,1.46,76.10,0.50
+33,Ana Suárez,Ingeniería de Software,2,3.26,3.31,3.16,83.90,0.60
+33,Ana Suárez,Ingeniería de Software,3,2.05,2.38,2.86,88.90,0.69
+33,Ana Suárez,Matemáticas,1,2.48,3.89,3.20,94.80,0.73
+33,Ana Suárez,Matemáticas,2,3.26,3.06,3.38,77.50,0.64
+33,Ana Suárez,Matemáticas,3,3.26,2.69,3.29,74.40,0.66
+33,Ana Suárez,Programación,1,1.70,2.13,2.57,92.90,0.81
+33,Ana Suárez,Programación,2,1.80,2.61,2.46,93.10,0.94
+33,Ana Suárez,Programación,3,2.64,3.30,2.96,75.90,0.92
+33,Ana Suárez,Redes,1,1.58,3.19,2.99,91.70,0.48
+33,Ana Suárez,Redes,2,2.37,3.33,2.22,92.40,0.47
+33,Ana Suárez,Redes,3,2.81,3.22,2.55,87.60,0.54
+33,Ana Suárez,Sistemas,1,2.63,2.56,2.65,86.50,0.80
+33,Ana Suárez,Sistemas,2,1.58,1.25,3.11,94.10,0.81
+33,Ana Suárez,Sistemas,3,3.07,2.31,1.76,85.00,0.74
+34,Catalina Castro,Algoritmos,1,2.53,3.19,4.17,91.40,1.00
+34,Catalina Castro,Algoritmos,2,2.69,4.20,4.20,94.30,1.00
+34,Catalina Castro,Algoritmos,3,4.06,3.24,3.69,92.70,1.00
+34,Catalina Castro,Bases de Datos,1,3.17,3.51,3.26,92.40,0.86
+34,Catalina Castro,Bases de Datos,2,3.16,3.83,3.27,95.00,0.38
+34,Catalina Castro,Bases de Datos,3,2.93,3.19,3.34,83.90,0.85
+34,Catalina Castro,Ingeniería de Software,1,2.62,2.41,2.84,92.60,0.52
+34,Catalina Castro,Ingeniería de Software,2,4.04,2.98,4.47,64.20,0.47
+34,Catalina Castro,Ingeniería de Software,3,3.45,3.09,2.64,98.60,0.70
+34,Catalina Castro,Matemáticas,1,2.29,2.47,1.29,100.00,0.72
+34,Catalina Castro,Matemáticas,2,2.44,1.92,2.53,88.70,0.71
+34,Catalina Castro,Matemáticas,3,3.65,2.42,3.08,85.80,0.59
+34,Catalina Castro,Programación,1,4.13,3.90,4.23,100.00,0.99
+34,Catalina Castro,Programación,2,4.24,3.62,4.53,75.80,0.53
+34,Catalina Castro,Programación,3,3.95,4.37,4.41,92.10,0.61
+34,Catalina Castro,Redes,1,3.92,3.61,3.10,93.30,0.61
+34,Catalina Castro,Redes,2,3.15,2.43,3.69,98.80,0.82
+34,Catalina Castro,Redes,3,4.22,2.86,3.77,79.70,0.56
+34,Catalina Castro,Sistemas,1,3.00,3.59,3.12,82.10,0.53
+34,Catalina Castro,Sistemas,2,2.72,4.26,3.28,78.30,0.83
+34,Catalina Castro,Sistemas,3,3.42,3.60,3.53,76.10,0.44
+35,Valeria Herrera,Algoritmos,1,2.33,2.25,2.71,84.30,0.48
+35,Valeria Herrera,Algoritmos,2,1.29,1.93,2.94,66.20,0.75
+35,Valeria Herrera,Algoritmos,3,1.77,2.51,2.92,80.50,0.36
+35,Valeria Herrera,Bases de Datos,1,2.78,3.09,2.05,68.60,0.68
+35,Valeria Herrera,Bases de Datos,2,2.32,3.39,2.86,68.60,0.76
+35,Valeria Herrera,Bases de Datos,3,2.58,1.89,2.52,84.40,0.56
+35,Valeria Herrera,Ingeniería de Software,1,2.11,2.22,1.16,66.70,0.52
+35,Valeria Herrera,Ingeniería de Software,2,1.78,0.85,1.61,83.50,0.34
+35,Valeria Herrera,Ingeniería de Software,3,1.69,1.93,2.67,84.80,0.75
+35,Valeria Herrera,Matemáticas,1,1.65,2.40,2.33,68.70,0.45
+35,Valeria Herrera,Matemáticas,2,2.93,2.89,2.25,77.40,0.44
+35,Valeria Herrera,Matemáticas,3,1.67,3.36,1.39,77.10,0.67
+35,Valeria Herrera,Programación,1,1.90,2.87,2.46,77.70,0.47
+35,Valeria Herrera,Programación,2,2.73,2.52,2.24,78.90,0.61
+35,Valeria Herrera,Programación,3,2.04,2.68,3.10,97.20,0.45
+35,Valeria Herrera,Redes,1,2.38,3.28,2.90,78.90,0.90
+35,Valeria Herrera,Redes,2,2.07,2.18,2.22,93.40,0.43
+35,Valeria Herrera,Redes,3,2.59,2.86,2.45,89.00,0.43
+35,Valeria Herrera,Sistemas,1,1.68,2.42,1.71,71.30,0.40
+35,Valeria Herrera,Sistemas,2,2.71,1.65,2.36,84.80,0.61
+35,Valeria Herrera,Sistemas,3,1.61,1.55,0.12,80.50,0.60
+36,Daniel Vega,Algoritmos,1,2.72,2.78,3.65,68.20,0.41
+36,Daniel Vega,Algoritmos,2,2.39,2.58,3.57,100.00,0.86
+36,Daniel Vega,Algoritmos,3,2.23,2.40,2.68,82.20,0.75
+36,Daniel Vega,Bases de Datos,1,4.02,3.81,3.51,66.50,0.97
+36,Daniel Vega,Bases de Datos,2,3.70,3.13,3.44,90.20,0.76
+36,Daniel Vega,Bases de Datos,3,2.53,3.74,3.69,91.60,0.62
+36,Daniel Vega,Ingeniería de Software,1,3.54,2.70,2.73,98.40,0.69
+36,Daniel Vega,Ingeniería de Software,2,2.88,2.08,3.00,72.10,0.79
+36,Daniel Vega,Ingeniería de Software,3,3.00,2.54,3.16,78.60,0.58
+36,Daniel Vega,Matemáticas,1,3.82,4.24,3.35,64.70,0.57
+36,Daniel Vega,Matemáticas,2,2.96,2.94,4.25,100.00,0.89
+36,Daniel Vega,Matemáticas,3,3.97,3.69,3.78,91.10,0.56
+36,Daniel Vega,Programación,1,3.97,2.47,3.71,85.00,0.92
+36,Daniel Vega,Programación,2,2.12,3.10,3.33,92.20,0.75
+36,Daniel Vega,Programación,3,2.28,3.12,3.84,91.80,0.87
+36,Daniel Vega,Redes,1,2.43,2.13,2.32,93.10,1.00
+36,Daniel Vega,Redes,2,2.88,3.31,2.67,95.60,0.74
+36,Daniel Vega,Redes,3,3.04,2.87,3.11,91.30,0.56
+36,Daniel Vega,Sistemas,1,3.94,3.71,3.09,99.40,0.87
+36,Daniel Vega,Sistemas,2,3.94,4.24,3.41,100.00,1.00
+36,Daniel Vega,Sistemas,3,3.74,3.06,3.61,87.90,1.00
+37,Nicolás Martínez,Algoritmos,1,5.00,4.67,4.21,95.30,0.63
+37,Nicolás Martínez,Algoritmos,2,4.37,4.19,4.12,95.10,0.75
+37,Nicolás Martínez,Algoritmos,3,4.31,4.57,4.67,74.60,0.68
+37,Nicolás Martínez,Bases de Datos,1,3.71,3.84,3.31,91.00,0.87
+37,Nicolás Martínez,Bases de Datos,2,2.80,4.12,3.04,84.70,0.62
+37,Nicolás Martínez,Bases de Datos,3,2.30,3.77,3.24,96.30,0.79
+37,Nicolás Martínez,Ingeniería de Software,1,5.00,4.28,4.28,92.00,0.63
+37,Nicolás Martínez,Ingeniería de Software,2,4.00,4.50,5.00,86.80,0.81
+37,Nicolás Martínez,Ingeniería de Software,3,3.56,4.00,3.86,90.30,0.74
+37,Nicolás Martínez,Matemáticas,1,4.20,3.59,3.91,100.00,0.53
+37,Nicolás Martínez,Matemáticas,2,4.46,4.46,3.77,100.00,0.89
+37,Nicolás Martínez,Matemáticas,3,3.47,3.75,4.10,76.60,0.79
+37,Nicolás Martínez,Programación,1,3.99,4.08,4.50,91.90,0.72
+37,Nicolás Martínez,Programación,2,3.74,4.80,4.14,76.90,1.00
+37,Nicolás Martínez,Programación,3,4.74,3.70,4.31,81.80,0.51
+37,Nicolás Martínez,Redes,1,4.49,4.33,3.67,87.50,0.80
+37,Nicolás Martínez,Redes,2,2.96,3.60,4.15,83.30,0.75
+37,Nicolás Martínez,Redes,3,3.41,2.83,3.21,75.30,0.69
+37,Nicolás Martínez,Sistemas,1,4.10,3.78,3.58,93.00,0.83
+37,Nicolás Martínez,Sistemas,2,5.00,4.61,3.56,84.90,0.63
+37,Nicolás Martínez,Sistemas,3,4.74,4.04,4.36,84.40,0.94
+38,Joaquín Cárdenas,Algoritmos,1,4.13,3.49,4.08,99.90,0.63
+38,Joaquín Cárdenas,Algoritmos,2,4.44,4.54,4.31,84.50,1.00
+38,Joaquín Cárdenas,Algoritmos,3,3.35,4.81,4.47,69.00,0.85
+38,Joaquín Cárdenas,Bases de Datos,1,3.89,2.56,3.00,90.10,0.84
+38,Joaquín Cárdenas,Bases de Datos,2,3.32,3.69,3.28,100.00,0.81
+38,Joaquín Cárdenas,Bases de Datos,3,3.57,4.18,3.62,71.60,0.62
+38,Joaquín Cárdenas,Ingeniería de Software,1,4.24,4.05,4.53,98.90,0.55
+38,Joaquín Cárdenas,Ingeniería de Software,2,3.15,4.44,3.25,100.00,1.00
+38,Joaquín Cárdenas,Ingeniería de Software,3,3.13,4.16,4.75,96.30,0.76
+38,Joaquín Cárdenas,Matemáticas,1,4.39,4.50,3.30,91.50,0.68
+38,Joaquín Cárdenas,Matemáticas,2,2.23,4.19,3.65,100.00,0.83
+38,Joaquín Cárdenas,Matemáticas,3,3.01,4.46,3.66,80.30,1.00
+38,Joaquín Cárdenas,Programación,1,3.17,3.16,3.50,74.90,1.00
+38,Joaquín Cárdenas,Programación,2,3.09,3.55,3.95,98.80,0.81
+38,Joaquín Cárdenas,Programación,3,4.20,3.05,3.80,87.60,0.72
+38,Joaquín Cárdenas,Redes,1,3.62,3.68,4.14,100.00,0.67
+38,Joaquín Cárdenas,Redes,2,3.49,3.62,3.68,82.20,0.97
+38,Joaquín Cárdenas,Redes,3,3.53,2.70,3.59,100.00,1.00
+38,Joaquín Cárdenas,Sistemas,1,4.07,3.31,3.90,66.60,0.76
+38,Joaquín Cárdenas,Sistemas,2,4.07,4.74,3.82,96.60,1.00
+38,Joaquín Cárdenas,Sistemas,3,4.70,4.48,4.50,99.80,0.75
+39,Joaquín Zapata,Algoritmos,1,3.88,4.46,4.79,100.00,1.00
+39,Joaquín Zapata,Algoritmos,2,4.20,4.59,4.70,75.40,0.52
+39,Joaquín Zapata,Algoritmos,3,2.81,3.89,3.23,99.10,0.32
+39,Joaquín Zapata,Bases de Datos,1,3.37,3.60,3.77,77.30,0.98
+39,Joaquín Zapata,Bases de Datos,2,2.80,2.69,2.66,84.70,0.69
+39,Joaquín Zapata,Bases de Datos,3,2.85,3.60,3.31,84.90,0.57
+39,Joaquín Zapata,Ingeniería de Software,1,3.13,3.21,3.39,96.40,0.69
+39,Joaquín Zapata,Ingeniería de Software,2,4.17,3.37,3.66,100.00,0.56
+39,Joaquín Zapata,Ingeniería de Software,3,3.99,4.02,3.17,80.40,0.84
+39,Joaquín Zapata,Matemáticas,1,3.49,2.92,3.65,78.40,0.66
+39,Joaquín Zapata,Matemáticas,2,2.77,2.99,2.35,79.10,1.00
+39,Joaquín Zapata,Matemáticas,3,2.96,3.52,2.23,71.60,0.44
+39,Joaquín Zapata,Programación,1,2.67,3.50,3.00,99.70,0.48
+39,Joaquín Zapata,Programación,2,4.08,2.29,3.25,74.80,0.85
+39,Joaquín Zapata,Programación,3,3.38,2.64,3.24,78.40,0.65
+39,Joaquín Zapata,Redes,1,3.25,3.52,3.41,82.70,0.30
+39,Joaquín Zapata,Redes,2,3.36,3.44,3.28,63.40,0.82
+39,Joaquín Zapata,Redes,3,3.76,2.68,2.89,90.00,0.39
+39,Joaquín Zapata,Sistemas,1,3.30,2.24,3.96,87.90,0.59
+39,Joaquín Zapata,Sistemas,2,2.89,3.47,3.45,68.30,1.00
+39,Joaquín Zapata,Sistemas,3,2.30,2.45,2.29,100.00,0.83
+40,Sebastián Molina,Algoritmos,1,1.75,2.66,1.79,83.40,0.77
+40,Sebastián Molina,Algoritmos,2,1.57,2.33,2.29,73.90,0.71
+40,Sebastián Molina,Algoritmos,3,3.12,1.84,2.14,77.40,0.90
+40,Sebastián Molina,Bases de Datos,1,2.50,2.62,2.05,77.10,0.44
+40,Sebastián Molina,Bases de Datos,2,3.21,1.40,3.28,79.80,0.48
+40,Sebastián Molina,Bases de Datos,3,1.98,2.37,2.47,85.00,0.59
+40,Sebastián Molina,Ingeniería de Software,1,3.16,2.62,2.59,86.00,0.80
+40,Sebastián Molina,Ingeniería de Software,2,2.12,3.27,3.13,93.40,0.77
+40,Sebastián Molina,Ingeniería de Software,3,2.24,2.29,2.42,71.60,0.71
+40,Sebastián Molina,Matemáticas,1,2.56,2.42,3.15,75.20,0.66
+40,Sebastián Molina,Matemáticas,2,3.25,3.39,2.78,80.70,0.86
+40,Sebastián Molina,Matemáticas,3,3.51,2.68,3.31,89.00,0.73
+40,Sebastián Molina,Programación,1,3.15,3.52,3.17,81.50,0.53
+40,Sebastián Molina,Programación,2,3.36,2.73,2.77,63.80,0.79
+40,Sebastián Molina,Programación,3,3.77,3.12,2.91,90.40,0.76
+40,Sebastián Molina,Redes,1,3.21,3.53,2.87,89.30,1.00
+40,Sebastián Molina,Redes,2,2.82,2.79,3.22,98.50,0.72
+40,Sebastián Molina,Redes,3,2.78,3.33,3.52,100.00,0.67
+40,Sebastián Molina,Sistemas,1,3.57,3.59,2.97,72.70,0.56
+40,Sebastián Molina,Sistemas,2,3.98,3.50,3.77,82.80,0.95
+40,Sebastián Molina,Sistemas,3,3.32,2.85,3.39,84.20,0.51
