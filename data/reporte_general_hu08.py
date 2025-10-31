@@ -1,50 +1,89 @@
 import pandas as pd
+import numpy as np
 import os
 import sys
 
-CSV_INPUT = 'reporte_general.csv'
-CSV_OUTPUT = 'estudiantes_en_riesgo.csv'
+
+CSV_INPUT = 'data-generada.csv'
+CSV_OUTPUT = 'reporte_general.csv'
 NOTA_APROBATORIA = 3.0
+NOTA_MAXIMA = 5.0
+NOTA_TOP = 4.5
+PERIODOS_TOTALES = 4
+COLUMNAS_NOTAS = ['nota1', 'nota2', 'nota3']
 
 
-def generar_reporte_riesgo():
+# --------------------------
 
-    # 1. Lectura del CSV
+def clasificar_estado(promedio):
+    if promedio >= NOTA_TOP:
+        return "Top"
+    elif promedio < NOTA_APROBATORIA:
+        return "En riesgo"
+    else:
+        return "Aprobado"
+
+
+def generar_reporte():
+
+    # 1. Leer CSV
     try:
-        df = pd.read_csv(CSV_INPUT, encoding='utf-8')
+        df = pd.read_csv(CSV_INPUT, encoding='latin-1')
     except FileNotFoundError:
         print(f"ERROR: Archivo '{CSV_INPUT}' no encontrado.")
-        print("Asegúrate de haber generado el reporte general (HU08) primero.")
         return
     except Exception as e:
-        print(f"ERROR al leer el CSV: {e}")
+        print(f"ERROR de lectura de CSV: {e}")
         return
 
-    # 2. Filtrar: Solo Estudiantes en Riesgo (< 3.0)
-    df_riesgo = df[df['promedio_actual'] < NOTA_APROBATORIA].copy()
+    # 2. Promedio ACUMULADO por estudiante
+    df['promedio_asignatura_periodo'] = df[COLUMNAS_NOTAS].mean(axis=1)
 
-    if df_riesgo.empty:
-        print("\n--- REPORTE DE RIESGO ---")
-        print(f"¡Felicidades! Ningún estudiante tiene un promedio acumulado menor a {NOTA_APROBATORIA:.1f}.")
-        return
+    df_reporte = df.groupby(['id_estudiante', 'nombre'], as_index=False)[
+        'promedio_asignatura_periodo'
+    ].mean()
 
-    # 3. Preparar para Salida
-    df_salida = df_riesgo[['nombre', 'promedio_actual', 'necesita_en_periodo4']]
+    df_reporte.rename(columns={'promedio_asignatura_periodo': 'promedio_actual'}, inplace=True)
+    df_reporte['promedio_actual'] = df_reporte['promedio_actual'].round(2)
 
-    # 4. Mostrar Lista en Consola (Criterio de Aceptación)
-    print("\n--- ESTUDIANTES EN RIESGO ---")
-    print(f" Promedio Acumulado Menor a {NOTA_APROBATORIA:.1f} (Basado en {CSV_INPUT})")
-    print("\nLista de Estudiantes:")
+    # 3. Calcular 'Necesita en Periodo 4'
+    periodos_actuales = df['periodo'].max()
 
-    print(df_salida.to_string(index=False, float_format="%.2f"))
+    puntaje_acumulado = df_reporte['promedio_actual'] * periodos_actuales
+    puntaje_necesario_total = NOTA_APROBATORIA * PERIODOS_TOTALES
 
-    print(f"\nTotal de estudiantes en riesgo: {len(df_riesgo)}")
+    df_reporte['necesita_en_periodo4'] = (
+                                                 puntaje_necesario_total - puntaje_acumulado
+                                         ) / (PERIODOS_TOTALES - periodos_actuales)
+
+    # Limitar el valor (entre 0.0 y 5.0)
+    df_reporte['necesita_en_periodo4'] = df_reporte['necesita_en_periodo4'].apply(
+        lambda x: min(max(x, 0.0), NOTA_MAXIMA)
+    ).round(2)
+
+    # 4. Agregar Columna 'Estado'
+    df_reporte['estado'] = df_reporte['promedio_actual'].apply(clasificar_estado)
 
     # 5. Guardar CSV
-    df_salida.to_csv(CSV_OUTPUT, index=False, encoding='utf-8')
-    print(f"\n Reporte de riesgo guardado como: **{CSV_OUTPUT}**")
+    df_final = df_reporte[['id_estudiante', 'nombre', 'promedio_actual', 'necesita_en_periodo4', 'estado']]
+
+    df_final.to_csv(CSV_OUTPUT, index=False, float_format="%.2f", encoding='utf-8')
+    print(f"\nReporte CSV guardado como: {CSV_OUTPUT}")
+
+    # 6. Mostrar Resumen General
+
+    promedio_grupo = df_reporte['promedio_actual'].mean()
+    mejor_estudiante = df_reporte.loc[df_reporte['promedio_actual'].idxmax()]
+    estudiantes_en_riesgo = df_reporte[df_reporte['estado'] == 'En riesgo']
+    porcentaje_riesgo = (len(estudiantes_en_riesgo) / len(df_reporte)) * 100
+
+    print("\n--- RESUMEN GENERAL DEL CURSO  ---")
+    print(f"**Promedio General del Grupo:** {promedio_grupo:.2f}")
+    print(f"**Mejor Estudiante:** {mejor_estudiante['nombre']} (Promedio: {mejor_estudiante['promedio_actual']:.2f})")
+    print(f"**Porcentaje en Riesgo (< {NOTA_APROBATORIA:.1f}):** {porcentaje_riesgo:.2f}%")
+    print("------------------------------------------")
 
 
-# --- Punto de Entrada ---
+# Ejecutar la función principal
 if __name__ == '__main__':
-    generar_reporte_riesgo()
+    generar_reporte()
