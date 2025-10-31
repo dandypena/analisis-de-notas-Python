@@ -1,0 +1,41 @@
+id_estudiante,nombre,promedio_actual,necesita_en_periodo4,estado
+1,Ana Vega,4.44,0.00,Aprobado
+2,Sara Gomez,2.14,5.00,En riesgo
+3,Felipe Salazar,2.21,5.00,En riesgo
+4,Sebastian Peña,2.99,3.03,En riesgo
+5,Valeria Bermuda,3.27,2.19,Aprobado
+6,Samuel Parra,1.11,5.00,En riesgo
+7,Ricardo Castro,2.64,4.08,En riesgo
+8,Gabriela Vega,3.83,0.51,Aprobado
+9,Paula Cardenas,4.03,0.00,Aprobado
+10,Natalia Bermuda,3.46,1.62,Aprobado
+11,Laura Lopez,3.24,2.28,Aprobado
+12,Adriana Sanchez,3.82,0.54,Aprobado
+13,Jose Suarez,3.91,0.27,Aprobado
+14,Luca Herrera,2.56,4.32,En riesgo
+15,Isabella Medina,2.94,3.18,En riesgo
+16,Gabriel Pardo,2.78,3.66,En riesgo
+17,Manuela Cardenas,2.84,3.48,En riesgo
+18,Sofia Vega,2.51,4.47,En riesgo
+19,Daniel Herrera,1.56,5.00,En riesgo
+20,Paula Medina,3.54,1.38,Aprobado
+21,Carolina Medina,2.43,4.71,En riesgo
+22,Adriana Ramirez,3.18,2.46,Aprobado
+23,Felipe Jimenez,2.70,3.90,En riesgo
+24,David Romero,2.27,5.00,En riesgo
+25,Miguel Herrera,4.26,0.00,Aprobado
+26,Gabriela Pardo,2.88,3.36,En riesgo
+27,Sebastian Rincon,4.44,0.00,Aprobado
+28,Julieta Rojas,3.07,2.79,Aprobado
+29,Tomas Rincon,1.79,5.00,En riesgo
+30,Martin Herrera,3.94,0.18,Aprobado
+31,Valeria Rincon,4.31,0.00,Aprobado
+32,Miguel Martinez,1.60,5.00,En riesgo
+33,Ana Suarez,2.80,3.60,En riesgo
+34,Catalina Castro,3.35,1.95,Aprobado
+35,Valeria Herrera,2.26,5.00,En riesgo
+36,Daniel Vega,3.18,2.46,Aprobado
+37,Nicolas Martinez,4.01,0.00,Aprobado
+38,Joaquin Cadenas,3.79,0.63,Aprobado
+39,Joaquin Zapata,3.30,2.10,Aprobado
+40,Sebastian Molina,2.85,3.45,En riesgo
