@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 import os
 
 # --- Constantes y Configuración ---
@@ -15,9 +14,8 @@ def calcular_y_graficar_promedios_hu01(csv_path):
     """
     print(f"---  Análisis de Promedios del Curso (HU01) ---")
 
-    df = None
 
-    # --- Lógica de Lectura  ---
+    # --- Lógica de Lectura ---
     try:
         df = pd.read_csv(csv_path)
         print(f" Archivo '{csv_path}' leído exitosamente con codificación por defecto.")
@@ -43,6 +41,20 @@ def calcular_y_graficar_promedios_hu01(csv_path):
 
     # --- Continúa el Análisis Solo si la lectura fue exitosa ---
     if df is not None:
+        # Validaciones mínimas: columnas de notas
+        missing = [c for c in COLUMNAS_NOTAS if c not in df.columns]
+        if missing:
+            print(f"ERROR: Faltan columnas de notas en el CSV: {missing}")
+            return
+
+        # Coerción a numérico (evita errores si hay texto) y comprobación básica
+        for c in COLUMNAS_NOTAS:
+            df[c] = pd.to_numeric(df[c], errors='coerce')
+
+        if df[COLUMNAS_NOTAS].isnull().all(axis=1).all():
+            print("ERROR: Todas las columnas de notas están vacías o no son numéricas.")
+            return
+
         print(f" {len(df)} filas encontradas y listas para analizar.")
 
         # 1. Calcular el promedio simple de las 3 notas por fila
@@ -84,7 +96,8 @@ def calcular_y_graficar_promedios_hu01(csv_path):
 
         for bar in barras:
             yval = bar.get_height()
-            plt.text(bar.get_x() + bar.get_width() / 2, yval - 0.2, f'{yval:.2f}', ha='center', va='bottom',
+            # Mostrar etiqueta por encima de la barra (más claro visualmente)
+            plt.text(bar.get_x() + bar.get_width() / 2, yval + 0.02, f'{yval:.2f}', ha='center', va='bottom',
                      fontweight='bold', color='black')
 
         plt.title('Promedio del Curso por Periodo y Promedio Anual Parcial', fontsize=14)
