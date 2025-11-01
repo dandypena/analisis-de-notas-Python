@@ -1,7 +1,6 @@
 import pandas as pd
 
 
-
 CSV_INPUT = 'reporte_general.csv'
 CSV_OUTPUT = 'estudiantes_en_riesgo.csv'
 NOTA_APROBATORIA = 3.0
@@ -21,6 +20,16 @@ def generar_reporte_riesgo():
     except Exception as e:
         print(f"ERROR al leer el CSV: {e}")
         return
+
+    # Validaciones de columnas
+    required_cols = ['nombre', 'promedio_actual', 'necesita_en_periodo4']
+    missing = [c for c in required_cols if c not in df.columns]
+    if missing:
+        print(f"ERROR: Faltan columnas requeridas en {CSV_INPUT}: {missing}")
+        return
+
+    # Asegurar que promedio_actual sea numérico
+    df['promedio_actual'] = pd.to_numeric(df['promedio_actual'], errors='coerce')
 
     # 2. Filtrar: Solo Estudiantes en Riesgo (< 3.0)
     df_riesgo = df[df['promedio_actual'] < NOTA_APROBATORIA].copy()
