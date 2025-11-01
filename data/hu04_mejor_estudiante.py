@@ -1,5 +1,4 @@
 import pandas as pd
-import sys
 
 
 CSV_INPUT = 'reporte_general.csv'

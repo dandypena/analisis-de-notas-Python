@@ -1,16 +1,15 @@
 import pandas as pd
-import os
-import sys
+
 
 
 CSV_INPUT = 'reporte_general.csv'
-CSV_OUTPUT = 'estudiantes_en_riesgo_simple.csv'
+CSV_OUTPUT = 'estudiantes_en_riesgo.csv'
 NOTA_APROBATORIA = 3.0
 
 
 # --------------------------------------------
 
-def generar_reporte_riesgo_simple():
+def generar_reporte_riesgo():
 
     # 1. Lectura del CSV
     try:
@@ -50,4 +49,4 @@ def generar_reporte_riesgo_simple():
 
 # --- Punto de Entrada ---
 if __name__ == '__main__':
-    generar_reporte_riesgo_simple()
+    generar_reporte_riesgo()

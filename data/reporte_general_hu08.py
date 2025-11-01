@@ -1,8 +1,4 @@
 import pandas as pd
-import numpy as np
-import os
-import sys
-
 
 CSV_INPUT = 'data-generada.csv'
 CSV_OUTPUT = 'reporte_general.csv'

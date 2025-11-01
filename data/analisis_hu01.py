@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 import os
 
 # --- Constantes y Configuración ---
@@ -17,7 +16,7 @@ def calcular_y_graficar_promedios_hu01(csv_path):
 
     df = None
 
-    # --- Lógica de Lectura  ---
+    # --- Lógica de Lectura ---
     try:
         df = pd.read_csv(csv_path)
         print(f" Archivo '{csv_path}' leído exitosamente con codificación por defecto.")
